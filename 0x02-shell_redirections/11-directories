@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+CWD=$(pwd)
+
+ls $CWD -d | wc -l
